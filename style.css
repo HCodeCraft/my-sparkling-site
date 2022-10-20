@@ -55,28 +55,61 @@ p {
 
 }
 
-.button {
+.button .button1 {
     border: none;
-    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    /*font-size: 20px; */
     margin: 4px 2px;
     cursor: pointer;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 200px;
+    height: 125px;
   }
 
-.button1 {background-color: purple;} /* Purple */
-.button2 {background-color: #E14D2A;} /* Orange */
+.button1 {background-color: purple;
+width: 200px;
+height:125px ;
+margin:4px 2px;
+padding: 15px 32px;
+text-align: center;
+margin-left: auto;
+margin-right:auto;
+display: block;
+display:inline-block;
+} /* Purple */
+
+div #svg +.button2 {background-color:darkorange;
+
+}
+
   
 
 * {
     font-family: Verdana, sans-serif;
 }
 
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur119.cur), auto !important;} /* End https://www.cursors-4u.com */
+.container {
+    position:relative;
+    width: 200px;
+    height: 125px;
+    padding: 15px 32px;
+    margin: auto;
+    background: none;
+    padding: 2em;
 
+    h1{
+        margin: 0;
+
+    }
+
+    p {
+        color: orangered;
+    }
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur119.cur), auto !important;} /* End https://www.cursors-4u.com */
