@@ -9,13 +9,20 @@ html{
   
   }
 
-  img {
+  img :not(img #pumpkin) {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 100%;
     border: 6px solid #C47AFF;
 
+  }
+
+
+  .button2 > #first > img #pumpkin {
+    border:none;
+    border-radius:0%;
+    margin-bottom: 200%;
   }
 
   td {
@@ -85,7 +92,20 @@ display:inline-block;
 
 div #svg +.button2 {background-color:darkorange;
 
+
 }
+
+.svg{
+    width:200px;
+    position:absolute;
+    top:-40px;
+    left:-30px;
+    pointer-events: none;
+}
+
+.hide {
+   display:none;
+} 
 
   
 

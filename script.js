@@ -1,6 +1,8 @@
-
-
-
+const placePumpkin = () => {
+    document.getElementById("first").style.display ='block';
+    document.getElementById("first").style.marginLeft ='auto';
+    document.getElementById("first").style.marginRight ='auto';
+}
 
 
 
