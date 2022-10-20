@@ -9,7 +9,7 @@ html{
   
   }
 
-  img :not(img #pumpkin) {
+  img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -19,10 +19,13 @@ html{
   }
 
 
-  .button2 > #first > img #pumpkin {
+  #first > #pumpkin {
     border:none;
     border-radius:0%;
-    margin-bottom: 200%;
+    position: fixed;
+    bottom: 7%;
+    left: 62%;
+    
   }
 
   td {
