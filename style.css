@@ -21,6 +21,7 @@ html{
   td {
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
   }
 
 
@@ -40,10 +41,22 @@ h3 {
     font-size: 30px;
 }
 
+h4 {
+    font-size:25px;
+}
+
+a {
+    color:#3F0071;
+}
+
 p {
     text-align: center;
     font-size: 25px;
 
+}
+
+* {
+    font-family: Verdana, sans-serif;
 }
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur119.cur), auto !important;} /* End https://www.cursors-4u.com */
